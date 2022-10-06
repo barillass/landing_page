@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_main{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.nav{
+    background: #2B4560;
+    height: 10vh;
+}
+.container_nav{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.container_nav a{
+    color: #FFF;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container_nav a:hover{
+    color: #0E86D4;
+}
+
+.hero{
+    height: 90vh;
+    background-image: url("img/hero-3.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.title{
+    width: 300px;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    border: solid 1px white;
+    border-radius: 25px;
+    color: #385E72;
+    background: #D9E4EC;
+}
+
+/* Gallery */
+/* Center website */
+.main h2{
+  margin-top: 25px;
+  text-align: center;
+}
+.main .parrafo{
+  text-align: center;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #eee;
+  }
+  
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+  }
+  .column img{
+    width: 50px;
+  }
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .sobre_mi{
+    display: flex;
+
+  }
+
+  .sobre mi div p{
+    
+  }
+
+  .sobre_mi div{
+    width: 48%;
+  }
+
+  .sobre_mi div img{
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
